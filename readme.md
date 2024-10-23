@@ -1,27 +1,43 @@
+# SEO Keyword on Image Alt Automatically
 
-=== Keyword Yoast SEO on imagen alt ===
-Contributors: (konstantinwdk)
-Donate link: https://webdesignerk.com/modulos-y-plugins/palabra-clave-de-yoast-seo-en-alt-de-imagen/
-Tags: comments, spam
-Requires at least: 3.0.1
-Tested up to: 3.4
-Stable tag: 4.3
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+**Contributors:** konstantinWDK  
+**Tags:** seo, yoast seo, alt attribute, images, keyword  
+**Requires at least:** 5.0  
+**Tested up to:** 6.0  
+**Stable tag:** 1.0  
+**License:** GPLv2 or later  
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
+Este plugin añade automáticamente el atributo alt a las imágenes de tus posts, basado en la palabra clave objetivo configurada en Yoast SEO. Es ideal para mejorar el SEO de tu sitio al optimizar las imágenes.
 
+## Descripción
 
+El plugin **SEO Keyword on Image Alt Automatically** rellena automáticamente el campo alt de las imágenes de tu contenido utilizando la palabra clave objetivo configurada en el plugin Yoast SEO. Esto permite mejorar la optimización SEO de tu sitio web de forma automática.
 
-En este aporte me gustaría añadir mi nuevo plugin “Keyword Yoast SEO on imagen alt” con el que podrás añadir la palabra clave de Yoast SEO en alt de imagen de manera automatica. 
+### Características principales:
 
-Como funciona el plugin Keyword Yoast SEO on imagen alt
+- Compatible con Yoast SEO.
+- Añade automáticamente la palabra clave como alt en las imágenes.
+- Permite editar manualmente el atributo alt si es necesario.
 
+## Instalación
 
-Este plugin o addon basicamente añade un campo personalizado en nusetro post o pagina.
+1. Sube el plugin al directorio `/wp-content/plugins/`.
+2. Activa el plugin a través del menú "Plugins" en WordPress.
+3. Asegúrate de tener instalado y activado el plugin Yoast SEO.
 
-Este campo se va a encargar de recoger un el valor indicado en el campo de nuestra frase clave objetivo de Yoast SEO para mostrarlo en el alt de las imagenes del post o pagina que no tengan el atributo de forma automatizada.
+## FAQ
 
-El plugin es compatible con elementor. 
-El plugin de momento no funciona para las imagenes destacadas
+### ¿Este plugin funciona sin Yoast SEO?
 
-Es obligatorio que tengan el plugin Yoast SEO instalado en su wordpress. si no usan el plugin de Yoast tendrían que rellenar el campo manualmente el campo. 
+No, el plugin requiere Yoast SEO para funcionar, ya que utiliza la palabra clave configurada en Yoast SEO.
+
+## Contribuir
+
+Si deseas colaborar en el desarrollo de este plugin, puedes realizar un fork del repositorio en GitHub:  
+[https://github.com/konstantinWDK/seo-yoast-keyword-on-image-post-alt-wordpress](https://github.com/konstantinWDK/seo-yoast-keyword-on-image-post-alt-wordpress)
+
+## Changelog
+
+### 1.0
+- Versión inicial del plugin.
